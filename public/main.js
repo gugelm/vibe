@@ -1,15 +1,18 @@
 const form = document.getElementById('vote-form');
+const form2 = document.getElementById('vote-form-2');
+const form3 = document.getElementById('vote-form-3');
+const form4 = document.getElementById('vote-form-4');
 
 var event;
 
 form.addEventListener('submit', e=>{
     
-    const choice = document.querySelector('input[name=os]:checked').value;
-    const data = {os: choice};
+    const choice1 = document.querySelector('input[name=os1]:checked').value;
+    const data1 = {os: choice1};
 
     fetch('http://localhost:3000/poll',{
         method: 'post',
-        body: JSON.stringify(data),
+        body: JSON.stringify(data1),
         headers: new Headers({
             'Content-Type': 'application/json'
         })
@@ -18,6 +21,58 @@ form.addEventListener('submit', e=>{
 
     e.preventDefault();
 });
+
+form2.addEventListener('submit', e=>{
+    
+    const choice2 = document.querySelector('input[name=os2]:checked').value;
+    const data2 = {os: choice2};
+
+    fetch('http://localhost:3000/poll',{
+        method: 'post',
+        body: JSON.stringify(data2),
+        headers: new Headers({
+            'Content-Type': 'application/json'
+        })
+    }).then(res => res.json())
+    .catch(err => console.log(err));
+
+    e.preventDefault();
+});
+
+form3.addEventListener('submit', e=>{
+    
+    const choice3 = document.querySelector('input[name=os3]:checked').value;
+    const data3 = {os: choice3};
+
+    fetch('http://localhost:3000/poll',{
+        method: 'post',
+        body: JSON.stringify(data3),
+        headers: new Headers({
+            'Content-Type': 'application/json'
+        })
+    }).then(res => res.json())
+    .catch(err => console.log(err));
+
+    e.preventDefault();
+});
+
+form4.addEventListener('submit', e=>{
+    
+    const choice4 = document.querySelector('input[name=os4]:checked').value;
+    const data4 = {os: choice4};
+
+    fetch('http://localhost:3000/poll',{
+        method: 'post',
+        body: JSON.stringify(data4),
+        headers: new Headers({
+            'Content-Type': 'application/json'
+        })
+    }).then(res => res.json())
+    .catch(err => console.log(err));
+
+    e.preventDefault();
+});
+
 
 fetch("http://localhost:3000/poll")
     .then(res => res.json())
