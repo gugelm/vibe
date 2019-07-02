@@ -9,9 +9,11 @@
   <link rel="stylesheet" href="style.css">
   <title>Vibe</title>
   <style>.hidden { display: none; }</style>
+  <audio id="drop" src="./assets/aqua4.mp3" preload="auto"></audio>
 </head>
 
 <body>
+  
   <div class="container">
     <h1 class="title">Game of Thrones</h1>
     <h2 class="subtitle">Season 8, Episode 6</h2>
@@ -20,28 +22,32 @@
     </div>-->
     <hr />
     <div class="voting-block">
+    
+
+
+
     <form id="vote-form">
       <div class="rect-happy"> 
         <input type="radio" checked="checked" name="os1" id="windows" value="Happy">
-        <input type="submit" value="" class="btn-happy">
+        <input type="submit" value="" class="btn-happy" onclick="play()">
       </div>
     </form>
     <form id="vote-form-2">
       <div class="rect-confused">
         <input type="radio" checked="checked" name="os2" id="macos" value="Confused">
-        <input type="submit" value="" class="btn-confused">
+        <input type="submit" value="" class="btn-confused" onclick="play()">
       </div>
     </form>
     <form id="vote-form-3">
       <div class="rect-sad">
         <input type="radio" checked="checked" name="os3" id="linux" value="Sad">
-        <input type="submit" value="" class="btn-sad">
+        <input type="submit" value="" class="btn-sad" onclick="play()">
       </div>
     </form>
     <form id="vote-form-4">
      <div class="rect-mad">
         <input type="radio" checked="checked" name="os4" id="other" value="Mad">
-        <input type="submit" value="" class="btn-mad">
+        <input type="submit" value="" class="btn-mad" onclick="play()">
       </div>
     </form>
   </div>

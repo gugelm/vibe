@@ -1,3 +1,16 @@
+//click audio
+
+function play() {
+    var audio = document.getElementById('drop');
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.currentTime = 0
+    }
+}
+
+//forms
+
 const form = document.getElementById('vote-form');
 const form2 = document.getElementById('vote-form-2');
 const form3 = document.getElementById('vote-form-3');
