@@ -36,6 +36,11 @@ h2.subtitle {
     width: 110px;
     height: 170px;
     border: none;
+    outline:none;
+}
+
+.btn-happy:active {
+  transform: translateY(5px);
 }
 
 .btn-confused {
@@ -46,6 +51,11 @@ h2.subtitle {
     width: 110px;
     height: 170px;
     border: none;
+    outline:none;
+}
+
+.btn-confused:active {
+  transform: translateY(5px);
 }
 
 .btn-sad {
@@ -56,6 +66,11 @@ h2.subtitle {
     width: 110px;
     height: 170px;
     border: none;
+    outline:none;
+}
+
+.btn-sad:active {
+  transform: translateY(5px);
 }
 
 .btn-mad {
@@ -66,6 +81,11 @@ h2.subtitle {
     width: 110px;
     height: 170px;
     border: none;
+    outline:none;
+}
+
+.btn-mad:active {
+  transform: translateY(5px);
 }
 
 /*Rectangles*/
@@ -75,6 +95,7 @@ h2.subtitle {
 	height:170px; 
 	width:110px; 
 	background-color:#f2e824;
+	border-radius: 10px;
 }
 
 .rect-confused {
@@ -82,6 +103,7 @@ h2.subtitle {
 	height:170px; 
 	width:110px; 
 	background-color:#62bf85;
+	border-radius: 10px;
 }
 
 .rect-sad {
@@ -89,6 +111,7 @@ h2.subtitle {
 	height:170px; 
 	width:110px; 
 	background-color:#42beeb;
+	border-radius: 10px;
 }
 
 .rect-mad {
@@ -96,5 +119,6 @@ h2.subtitle {
 	height:170px; 
 	width:110px; 
 	background-color:#d61c2b;
+	border-radius: 10px;
 }
 
