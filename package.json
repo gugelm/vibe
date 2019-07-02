@@ -1,0 +1,23 @@
+{
+  "name": "pusherpoll",
+  "version": "1.0.1",
+  "description": "Real time polling app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chokidar": "^3.0.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongoose": "^5.6.2",
+    "pusher": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
