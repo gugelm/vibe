@@ -4,10 +4,16 @@ form {
 	display:inline-block;
 }
 
-.voting-block {
+div.voting-block {
 	text-align:center;
 	padding-top:20px;
 }
+
+div.vibers {
+    text-align:center;
+}
+
+/*text*/
 
 h1.title {
 	font:arial;
@@ -25,6 +31,12 @@ h2.subtitle {
 	text-align:center;
 }
 
+p.vibers {
+    font:arial;
+    color:white;
+    font-size:16px;
+    text-align:center;
+}
 
 /*Buttons*/
 
@@ -126,3 +138,19 @@ h2.subtitle {
 	margin-right: 5px;
 }
 
+.rect-vibers {
+    display:inline-block;
+    height:150px; 
+    width:150px; 
+    background-color:#7b00f5;
+    border-radius: 10px;
+    padding :20px 0px 0px 0px;
+    margin:2% 0px 10% 0px;
+}
+
+/*images*/
+img.vibers {
+    width:60%; 
+    height:auto; 
+    margin-bottom:-20px; 
+}
