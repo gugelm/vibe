@@ -96,6 +96,7 @@ h2.subtitle {
 	width:110px; 
 	background-color:#f2e824;
 	border-radius: 10px;
+	margin-right: 5px;
 }
 
 .rect-confused {
@@ -104,6 +105,7 @@ h2.subtitle {
 	width:110px; 
 	background-color:#62bf85;
 	border-radius: 10px;
+	margin-right: 5px;
 }
 
 .rect-sad {
@@ -112,6 +114,7 @@ h2.subtitle {
 	width:110px; 
 	background-color:#42beeb;
 	border-radius: 10px;
+	margin-right: 5px;
 }
 
 .rect-mad {
@@ -120,5 +123,6 @@ h2.subtitle {
 	width:110px; 
 	background-color:#d61c2b;
 	border-radius: 10px;
+	margin-right: 5px;
 }
 
