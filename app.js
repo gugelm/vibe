@@ -3,6 +3,8 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
+
+
 // DB Config
 require('./config/db');
 
@@ -26,3 +28,5 @@ const port = 3000;
 
 // Start server
 app.listen(port, () => console.log(`Server started on port ${port}`));
+
+
