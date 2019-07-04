@@ -19,18 +19,6 @@
       <span class="red-text text-darken-2">You have already voted, you can only vote once.</span>
     </div>-->
     <hr />
-    
-<h1>Conter : <span id="counter"></span></h1>
-
-<script type="text/javascript">
-var socket = io.connect('http://localhost:8080');
-socket.on('message', function (data) {
-    console.log(data.count);
-});
-
-
-</script>
-
     <div class="vibers">
       <div class="rect-vibers">
         <img src="./images/users-white.png" class="vibers">
