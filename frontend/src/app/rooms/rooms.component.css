@@ -1,0 +1,32 @@
+.images-col span {
+  display: inline-block;
+}
+
+.images-col span span {
+  clear: both;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.vibers-count {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+}
+
+.vibers-count hr {
+  width: 100px;
+}
+
+.counter {
+  height: 60px;
+  line-height: 95px;
+}
+
+.animate_image:hover {
+  cursor: pointer;
+  width: 60px;
+}

@@ -1,0 +1,68 @@
+<div>
+
+  <div class="">
+    <div class="card-header">
+      <div class="row">
+        <div class="col col-2">
+          <img class="float-left" src="assets/images/ic_menu.png" alt="">
+        </div>
+        <div class="d-inline-block col col-8">
+          <h5 class="card-title text-center">{{room.title}}</h5>
+          <p class="card-text text-center">Season {{room.season}}, Episode {{room.episode}}</p>
+        </div>
+        <div class="col col-2">
+          <img class="float-right" src="assets/images/ic_chat.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div style="height: 50px"> </div>
+    <div class="card-body">
+      <div class="text-center vibers-count">
+        <div class="counter">
+          <b>{{room.vibers}}</b>
+        </div>
+        <hr>
+        <div>
+          <b>Vibers</b>
+        </div>
+      </div>
+    </div>
+    <div class="card-footer fixed-bottom text-center">
+      <div class="row">
+        <div class="col images-col">
+          <span>
+            <img class="animate_image" src="assets/images/imoji/btn_haha.png" alt="" width="50px"
+              (click)="onSelect('laugh')">
+            <span>
+              {{room.vibes.laugh}}
+            </span>
+          </span>
+          <span>
+            <img class="animate_image" src="assets/images/imoji/btn_smile.png" alt="" width="50px" (click)="onSelect('smile')">
+            <span>
+              {{room.vibes.smile}}
+            </span>
+          </span>
+          <span>
+            <img class="animate_image" src="assets/images/imoji/btn_wow.png" alt="" width="50px" (click)="onSelect('wow')">
+            <span>
+              {{room.vibes.wow}}
+            </span>
+          </span>
+          <span>
+            <img class="animate_image" src="assets/images/imoji/btn_sad.png" alt="" width="50px" (click)="onSelect('sad')">
+            <span>
+              {{room.vibes.sad}}
+            </span>
+          </span>
+          <span>
+            <img class="animate_image" src="assets/images/imoji/btn_angry.png" alt="" width="50px" (click)="onSelect('angry')">
+            <span>
+              {{room.vibes.angry}}
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
