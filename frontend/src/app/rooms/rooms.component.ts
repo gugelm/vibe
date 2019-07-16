@@ -17,7 +17,7 @@ export class RoomsComponent implements OnInit {
     "episode": 0,
     "vibers": 0,
     "vibes": {
-      "haha": 0,
+      "laugh": 0,
       "smile": 0,
       "wow": 0,
       "sad": 0,

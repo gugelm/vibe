@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="42px" viewBox="0 0 40 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>ic_chat</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Real-Time-Voting-App-Main-Screen-ver.2" transform="translate(-319.000000, -67.000000)">
+            <g id="Header" transform="translate(-1.000000, 42.000000)">
+                <g id="ic_chat" transform="translate(320.000000, 25.000000)">
+                    <rect id="Rectangle" fill="#C4C4C4" x="0" y="2" width="40" height="40" rx="10"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="40" height="40" rx="10"></rect>
+                    <path d="M24.615,16.308 C24.615,20.896 20.896,24.616 16.307,24.616 C14.571,24.616 12.959,24.083 11.626,23.172 L8.352,24.263 L9.444,20.989 C8.533,19.656 8,18.044 8,16.308 C8,11.72 11.719,8 16.307,8 C20.896,8 24.615,11.72 24.615,16.308 Z M31.9996,23.6926 C31.9996,25.4286 31.4666,27.0406 30.5556,28.3736 L31.6466,31.6476 L28.3736,30.5566 C27.0396,31.4676 25.4286,32.0006 23.6916,32.0006 C19.9716,32.0006 16.8226,29.5536 15.7646,26.1826 C15.9446,26.1916 16.1256,26.1976 16.3076,26.1976 C17.6416,26.1976 18.9376,25.9366 20.1576,25.4206 C21.3356,24.9216 22.3926,24.2086 23.3006,23.3016 C24.2086,22.3936 24.9216,21.3356 25.4196,20.1586 C25.9356,18.9376 26.1976,17.6426 26.1976,16.3076 C26.1976,16.1266 26.1926,15.9456 26.1826,15.7656 C29.5536,16.8236 31.9996,19.9726 31.9996,23.6926 Z" fill="#A0A4AD"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

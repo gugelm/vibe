@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="77px" viewBox="0 0 74 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>btn_haha</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="56" height="56" rx="14"></rect>
+        <filter x="-34.8%" y="-18.8%" width="169.6%" height="175.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="7" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="12" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="11.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.807843137   0 0 0 0 0.482352941  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M0,0 C0,10.0380176 8.13742104,18.1754386 18.1754386,18.1754386 C28.2134562,18.1754386 36.3508772,10.0380176 36.3508772,0" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Real-Time-Voting-App-Main-Screen-ver.2" transform="translate(-1.000000, -676.000000)">
+            <g id="1" transform="translate(0.000000, 676.000000)">
+                <g id="btn_haha" transform="translate(10.000000, 0.000000)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#F7CE7B" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="mouth" transform="translate(9.824561, 27.508772)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use fill="#252B39" xlink:href="#path-3"></use>
+                        <path d="M8.5039576e-07,22.5964912 C8.5039576e-07,22.5964912 4.42105357,26.0350874 17.6620705,26.0350877 C30.9030875,26.0350881 35.8596491,22.5964912 35.8596491,22.5964912 L17.6620706,5.89473684 L8.5039576e-07,22.5964912 Z" id="smile" fill="#F55065" mask="url(#mask-4)" transform="translate(17.929825, 15.964912) rotate(-180.000000) translate(-17.929825, -15.964912) "></path>
+                    </g>
+                    <path d="M18.7934592,17.0302163 C19.4471079,17.4229681 20.0571222,18.6095099 18.7644053,19.7185709 L12.1738917,23.9985005 C11.4909878,24.4419835 10.5771349,24.2467613 10.1347588,23.5655619 C9.69148073,22.8829735 9.88545349,21.9702957 10.5686398,21.5266293 L15.3675179,18.4102015 L10.539586,15.5092873 C9.8416207,15.0899075 9.61647845,14.1829622 10.0348115,13.486739 C10.4539976,12.7890963 11.359339,12.5633462 12.0575929,12.9828995 L18.7934592,17.0302163 Z M37.0817944,17.0302163 L43.8176606,12.9828995 C44.5159145,12.5633462 45.4212559,12.7890963 45.840442,13.486739 C46.2587751,14.1829622 46.0336328,15.0899075 45.3356676,15.5092873 L40.5077357,18.4102015 L45.3066137,21.5266293 C45.9898,21.9702957 46.1837728,22.8829735 45.7404947,23.5655619 C45.2981186,24.2467613 44.3842658,24.4419835 43.7013618,23.9985005 L37.1108482,19.7185709 C35.8181313,18.6095099 36.4281456,17.4229681 37.0817944,17.0302163 Z" id="eyes" fill="#252B39"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
