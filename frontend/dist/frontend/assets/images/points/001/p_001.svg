@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="28px" viewBox="0 0 14 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>p_001</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Real-Time-Voting-App-Main-Screen-ver.2" transform="translate(-42.000000, -639.000000)">
+            <g id="p_001" transform="translate(42.000000, 639.000000)">
+                <path d="M14,20 C14,12.3630721 14,8.02973879 14,7 C14,3.13400675 10.8659932,0 7,0 C3.13400675,0 0,3.13400675 0,7 C0,8.07855079 0,12.4118841 0,20 L14,20 Z" id="Oval" fill="#F7CE7B" opacity="0.25"></path>
+                <path d="M14,20 C14,15.6964055 14,13.0297388 14,12 C14,8.13400675 10.8659932,5 7,5 C3.13400675,5 0,8.13400675 0,12 C0,13.0785508 0,15.7452175 0,20 L14,20 Z" id="Oval" fill="#F7CE7B" opacity="0.5"></path>
+                <path d="M14,21 C14,19.3630721 14,18.0297388 14,17 C14,13.1340068 10.8659932,10 7,10 C3.13400675,10 0,13.1340068 0,17 C0,18.0785508 0,19.4118841 0,21 L14,21 Z" id="Oval" fill="#F7CE7B" opacity="0.75"></path>
+                <circle id="Oval" fill="#F7CE7B" cx="7" cy="21" r="7"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="7" cy="21" r="3"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,14 +1,34 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>VoteDemo</title>
-  <base href="/">
+	<meta charset="utf-8">
+	<title>VotesDemo</title>
+	<base href="/">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+
 </head>
 <body>
-  <app-root></app-root>
+	<app-root></app-root>
 </body>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+		
+		$("#side_img").click(function(){
+			if($("#sd-rk").hasClass("sidebar")===true){
+				$("#sd-rk").addClass("addnav")
+			}
+			else{
+				$("#sd-rk").addClass("sidebar")
+			}
+		})
+
+		$("#removeclass").click(function(){
+			$("#sd-rk").removeClass("addnav")
+		})
+	});
+</script>
 </html>
+
