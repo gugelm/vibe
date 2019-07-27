@@ -5,7 +5,8 @@ const io = require('../sockets/base');
 
 /* GET users listing. */
 router.put('/enter/:_id', function (req, res, next) {
-   
+    var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+    
     var query = {
         "vibers": 1
     };

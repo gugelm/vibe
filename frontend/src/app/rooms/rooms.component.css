@@ -30,3 +30,135 @@
   cursor: pointer;
   width: 60px;
 }
+
+.laugh_bg {
+  background-color: #F7CE7B;
+}
+
+.smile_bg {
+  background-color: #88C09B;
+}
+
+.wow_bg {
+  background-color: #BA6D97;
+}
+
+.sad_bg {
+  background-color: #69D5FF;
+}
+
+.angry_bg {
+  background-color: #D65864;
+}
+.container2-rk{
+  position: relative;
+  width: 100%;
+  min-height: 120px;
+}
+.container2-rk .inner-td {
+    position: absolute;
+    width: 400px;
+    margin: auto;
+    background: #333;
+    left: 50%;
+    transform: translate(-50%);
+}
+.box{
+     width: 15px;
+     height: 30px;
+     transition: all 1s;
+     animation: moveall 5s;
+     margin: auto;
+     top: 70px;
+     position: absolute;
+     left: 35%;
+   }
+.b1 .box1 {
+  left: 22%;
+  background-image: url('../../assets/images/points/001/p_001.png');
+  top:140px;
+}
+
+.b2 .box1 {
+  left: 35%;
+  background-image: url('../../assets/images/points/002/p_002.png');
+  top:140px;
+}
+.b3 .box1 {
+  left: 49%;
+  background-image: url('../../assets/images/points/003/p_003.png');
+  top:140px;
+}
+.b4 .box1 {
+  left: 61%;
+  background-image: url('../../assets/images/points/004/p_004.png');
+  top:140px;
+}
+.b5 .box1 {
+  left: 73%;
+  background-image: url('../../assets/images/points/005/p_005.png');
+  top:140px;
+}
+.box2 {
+  position: absolute;
+  top: -30px;
+  height: 30px;
+  width: 15px;
+  left: 50%;
+  background-repeat: no-repeat;
+  transform: translateX(-50%);
+  
+}
+.card-footer {
+    background: #fff;
+}
+/* sidebar */
+
+.sidebar {
+    min-width: 180px;
+    max-width: 180px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background:#403d3d;
+    z-index: 9999;
+    left: -180px;
+    transition: all 1s;   
+}
+.addnav {
+    left:180px; 
+    min-width: 180px;
+    max-width: 180px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background:#403d3d;
+    z-index: 9999;
+    transition: all 1s;   
+}
+.sidebar span,.addnav span {
+    width: 30px;
+    background: #fff;
+    height: 30px;
+    float: right;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px;
+    cursor: pointer;   
+}
+.nav-img {
+    cursor: pointer;
+}
+.sidebar ul, .addnav  ul {
+    padding: 60px 20px;
+    list-style: none;
+}
+.sidebar ul li,.addnav ul li {
+    margin: 10px 0px;
+}
+.sidebar ul li a,.addnav ul li a {
+    color: #fff;
+}

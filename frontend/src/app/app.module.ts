@@ -11,7 +11,7 @@ import { RoomsComponent } from './rooms/rooms.component';
 
 import { SocketIoModule, SocketIoConfig } from 'ngx-socket-io';
 
-const config: SocketIoConfig = { url: 'https://localhost', options: {} };
+const config: SocketIoConfig = { url: 'https://vibe-demo.herokuapp.com', options: {} };
 @NgModule({
   declarations: [
     AppComponent,
