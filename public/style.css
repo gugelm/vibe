@@ -1,0 +1,27 @@
+/*General*/
+
+form {
+	display:inline-block;
+}
+
+div.voting-block {
+	text-align:center;
+	padding-top:20px;
+}
+
+/*Buttons*/
+
+.btn-happy {
+    background:url(./images/btn_haha.png) no-repeat;
+    background-size: 74px 77px;
+    background-position: center; 
+    cursor:pointer;
+    height: 77px;
+    width: 74px;
+    border: none;
+    outline:none;
+}
+
+.btn-happy:active {
+  transform: translateY(5px);
+}

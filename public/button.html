@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <!--Prevent zooming start-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <!--Prevent zooming end-->
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Vibe Button Example</title>
+  
+  <!--Load the audio file start-->
+  <style>.hidden { display: none; }</style>
+  <audio id="drop" src="./assets/aqua4.mp3" preload="auto"></audio>
+  <!--Load the audio file end-->
+
+</head>
+<body>
+
+<div class="voting-block">
+    <form id="vote-form">
+      <input type="radio" checked="checked" name="os1" id="windows" value="Happy">
+      
+      <!--Play the audio file onclick start-->
+      <input type="submit" value="" class="btn-happy" onclick="play()">
+      <!--Play the audio file onclick end-->
+    </form>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
