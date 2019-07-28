@@ -22,6 +22,8 @@ div.voting-block {
     outline:none;
 }
 
+/*move it 5 px on click*/
+
 .btn-happy:active {
   transform: translateY(5px);
 }
