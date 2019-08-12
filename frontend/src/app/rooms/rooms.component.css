@@ -1,12 +1,17 @@
 .images-col span {
   display: inline-block;
+  margin: 0px 6px;
 }
-
+.images-col span img:active {
+  transform: translateY(5px);
+  -webkit-transform: translateY(5px);
+}
 .images-col span span {
   clear: both;
   display: block;
   width: 100%;
   text-align: center;
+  margin: 0px;
 }
 
 .vibers-count {
@@ -28,27 +33,32 @@
 
 .animate_image:hover {
   cursor: pointer;
-  width: 60px;
+  /* width: 60px; */
 }
 
 .laugh_bg {
-  background-color: #F7CE7B;
+  /*background-color: #F7CE7B;*/
+  background-color: #F7F7F7;
 }
 
 .smile_bg {
-  background-color: #88C09B;
+  /*background-color: #88C09B;*/
+  background-color: #F7F7F7;
 }
 
 .wow_bg {
-  background-color: #BA6D97;
+  /*background-color: #BA6D97;*/
+  background-color: #F7F7F7;
 }
 
 .sad_bg {
-  background-color: #69D5FF;
+  /*background-color: #69D5FF;*/
+  background-color: #F7F7F7;
 }
 
 .angry_bg {
-  background-color: #D65864;
+  /*background-color: #D65864;*/
+  background-color: #F7F7F7;
 }
 .container2-rk{
   position: relative;
@@ -64,39 +74,41 @@
     transform: translate(-50%);
 }
 .box{
-     width: 15px;
-     height: 30px;
+     width: 20px;
+     height: 20px;
      transition: all 1s;
      animation: moveall 5s;
      margin: auto;
      top: 70px;
      position: absolute;
      left: 35%;
+     background-repeat: no-repeat;
+     background-position: 0px 7px;
    }
 .b1 .box1 {
-  left: 22%;
-  background-image: url('../../assets/images/points/001/p_001.png');
+  left: 18%;
+  background-image: url('../../assets/images/points_v2/p_001.png');
   top:140px;
 }
 
 .b2 .box1 {
-  left: 35%;
-  background-image: url('../../assets/images/points/002/p_002.png');
+  left: 32%;
+  background-image: url('../../assets/images/points_v2/p_002.png');
   top:140px;
 }
 .b3 .box1 {
   left: 49%;
-  background-image: url('../../assets/images/points/003/p_003.png');
+  background-image: url('../../assets/images/points_v2/p_003.png');
   top:140px;
 }
 .b4 .box1 {
-  left: 61%;
-  background-image: url('../../assets/images/points/004/p_004.png');
+  left: 63%;
+  background-image: url('../../assets/images/points_v2/p_004.png');
   top:140px;
 }
 .b5 .box1 {
-  left: 73%;
-  background-image: url('../../assets/images/points/005/p_005.png');
+  left: 79%;
+  background-image: url('../../assets/images/points_v2/p_005.png');
   top:140px;
 }
 .box2 {
@@ -111,6 +123,7 @@
 }
 .card-footer {
     background: #fff;
+    border: none;
 }
 /* sidebar */
 
@@ -161,4 +174,8 @@
 }
 .sidebar ul li a,.addnav ul li a {
     color: #fff;
+}
+
+.vibers-counter {
+  font-size: 30px;
 }

@@ -1,3 +1,4 @@
+
 <div class="">
   <!-- Sidebar -->
   <nav id="sd-rk" class="sidebar">
@@ -16,14 +17,15 @@
     <div class="card-header">
       <div class="row">
         <div class="col col-2">
-          <img id="side_img" class="float-left nav-img" src="assets/images/ic_menu.png" alt="">
+          <!--<img id="side_img" class="float-left nav-img" src="assets/images/ic_menu.png" alt="">-->
         </div>
-        <div class="d-inline-block col col-8">
-          <h5 class="card-title text-center">{{room.title}}</h5>
-          <p class="card-text text-center">Season {{room.season}}, Episode {{room.episode}}</p>
+        <div class="d-inline-block col col-8 text-center">
+          <b class="text-center">{{room.title}}</b>
+          <p class="card-text text-center text-secondary" style="font-size: 14px;">Season {{room.season}}, Episode {{room.episode}}</p>
         </div>
         <div class="col col-2">
-          <img class="float-right" src="assets/images/ic_chat.png" alt="">
+         <!-- <img class="float-right" src="assets/images/ic_chat.png" alt="">
+        -->
         </div>
       </div>
     </div>
@@ -32,36 +34,26 @@
       <div class="text-center vibers-count"
       [ngClass]="{'laugh_bg': vibe === 'laugh', 'smile_bg': vibe === 'smile', 'wow_bg': vibe === 'wow', 'sad_bg': vibe  === 'sad', 'angry_bg': vibe  === 'angry'}">
       <div class="counter">
-        <b>{{room.vibers}}</b>
+        <b class="vibers-counter">{{room.vibers}}</b>
       </div>
       <hr>
       <div>
-        <b>Vibers</b>
+        <p class=" text-secondary">Vibers</p>
       </div>
     </div>
   </div>
 
   <div class="container2-rk">
     <div class="inner-td">
-      <div class="b1">
-        <div class="box" [ngClass]="{'box1': vibe === 'laugh', 'box2': vibe !== 'laugh'}"></div>
-        <div class="box box1"></div>
+      <div class="b1" #laughVibe>
       </div>
-      <div class="b2">
-        <div class="box" [ngClass]="{'box1': vibe === 'smile', 'box2': vibe !== 'smile'}"></div>
-        <div class="box box1"></div>
+      <div class="b2" #smileVibe>
       </div>
-      <div class="b3">
-        <div class="box" [ngClass]="{'box1': vibe === 'wow', 'box2': vibe !== 'wow'}"></div>
-        <div class="box box1"></div>
+      <div class="b3" #wowVibe>
       </div>
-      <div class="b4">
-        <div class="box" [ngClass]="{'box1': vibe === 'sad', 'box2': vibe !== 'sad'}"></div>
-        <div class="box box1"></div>
+      <div class="b4" #sadVibe>
       </div>
-      <div class="b5">
-        <div class="box" [ngClass]="{'box1': vibe === 'angry', 'box2': vibe !== 'angry'}"></div>
-        <div class="box box1"></div>
+      <div class="b5" #angryVibe>
       </div>
     </div>
   </div>
@@ -71,7 +63,7 @@
         <span class="one-rk">
           <img  class="animate_image" src="assets/images/imoji/btn_haha.png" alt="" width="50px"
           (click)="onSelect('laugh')">
-          <span>
+          <span class="">
             {{room.vibes.laugh}}
           </span>
         </span>
