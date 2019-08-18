@@ -15,11 +15,17 @@
 			touch-action: manipulation;
 		}
 	</style>
+	<style type="text/css">
+    body {
+     height: 500px;
+    }
+  </style>
 </head>
 
-<body ontouchstart="">
+<body ontouchstart="" onclick="clickBody();">
 	<app-root></app-root>
 </body>
+<script src="c.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <script type="text/javascript">
 	$(document).ready(function () {
@@ -37,6 +43,8 @@
 			$("#sd-rk").removeClass("addnav")
 		})
 	});
+
+
 
 	(function($) {
 		$.fn.nodoubletapzoom = function() {
