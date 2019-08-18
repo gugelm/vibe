@@ -18,7 +18,7 @@
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  background-color: blue;
+  background-color: #F7F7F7;
   margin: 0 auto;
   touch-action: manipulation;
 }
@@ -182,5 +182,5 @@
 }
 
 .vibers-counter {
-  font-size: 60px;
+  font-size: 30px;
 }
