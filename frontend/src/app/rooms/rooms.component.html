@@ -13,7 +13,7 @@
     </ul>
   </nav>
 
-  <div class="">
+  <div class="" onClick={e => e.preventDefault()}>
     <div class="card-header">
       <div class="row">
         <div class="col col-2">
@@ -30,7 +30,7 @@
       </div>
     </div>
     <div style="height: 50px"> </div>
-    <div class="card-body">
+    <div class="card-body" onClick={e => e.preventDefault()}>
       <div class="text-center vibers-count"
       [ngClass]="{'laugh_bg': vibe === 'laugh', 'smile_bg': vibe === 'smile', 'wow_bg': vibe === 'wow', 'sad_bg': vibe  === 'sad', 'angry_bg': vibe  === 'angry'}">
       <div class="counter">
