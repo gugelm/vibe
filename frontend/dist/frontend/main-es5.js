@@ -151,7 +151,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var config = { url: 'https://vibe-demo.herokuapp.com', options: { 'sync disconnect on unload': true } };
+var config = { url: 'https://vibe2.herokuapp.com', options: { 'sync disconnect on unload': true } };
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -385,16 +385,16 @@ var RoomService = /** @class */ (function () {
         this.http = http;
     }
     RoomService.prototype.getRoom = function (_id) {
-        return this.http.get('https://vibe-demo.herokuapp.com/api/rooms/' + _id);
+        return this.http.get('https://vibe2.herokuapp.com/api/rooms/' + _id);
     };
     RoomService.prototype.enterRoom = function (_id) {
-        return this.http.put('https://vibe-demo.herokuapp.com/api/rooms/enter/' + _id, {});
+        return this.http.put('https://vibe2.herokuapp.com/api/rooms/enter/' + _id, {});
     };
     RoomService.prototype.updateVibe = function (vibe) {
         var body = {
             "vibe": vibe
         };
-        return this.http.put('https://vibe-demo.herokuapp.com/api/vibes/update/5d2add3684899d2b0c10f158', body);
+        return this.http.put('https://vibe2.herokuapp.com/api/vibes/update/5d2add3684899d2b0c10f158', body);
     };
     RoomService.ctorParameters = function () { return [
         { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }

@@ -89,11 +89,10 @@
      left: 35%;
      background-repeat: no-repeat;
      background-position: 0px 7px;
-  background-color: blue;     
    }
 .b1 .box1 {
   left: 18%;
-  background-image: url('../../assets/images/points_v2/p_1.png');
+  background-image: url('../../assets/images/points_v2/p_001.png');
   top:140px;
 }
 

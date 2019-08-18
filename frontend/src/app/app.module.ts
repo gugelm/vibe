@@ -11,7 +11,7 @@ import { RoomsComponent } from './rooms/rooms.component';
 
 import { SocketIoModule, SocketIoConfig } from 'ngx-socket-io';
 
-const config: SocketIoConfig = { url: 'https://vibe-demo.herokuapp.com', options: { 'sync disconnect on unload': true} };
+const config: SocketIoConfig = { url: 'https://vibe2.herokuapp.com', options: { 'sync disconnect on unload': true} };
 @NgModule({
   declarations: [
     AppComponent,

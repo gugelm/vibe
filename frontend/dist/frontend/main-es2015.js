@@ -147,7 +147,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const config = { url: 'https://vibe-demo.herokuapp.com', options: { 'sync disconnect on unload': true } };
+const config = { url: 'https://vibe2.herokuapp.com', options: { 'sync disconnect on unload': true } };
 let AppModule = class AppModule {
 };
 AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
@@ -376,16 +376,16 @@ let RoomService = class RoomService {
         this.http = http;
     }
     getRoom(_id) {
-        return this.http.get('https://vibe-demo.herokuapp.com/api/rooms/' + _id);
+        return this.http.get('https://vibe2.herokuapp.com/api/rooms/' + _id);
     }
     enterRoom(_id) {
-        return this.http.put('https://vibe-demo.herokuapp.com/api/rooms/enter/' + _id, {});
+        return this.http.put('https://vibe2.herokuapp.com/api/rooms/enter/' + _id, {});
     }
     updateVibe(vibe) {
         var body = {
             "vibe": vibe
         };
-        return this.http.put('https://vibe-demo.herokuapp.com/api/vibes/update/5d2add3684899d2b0c10f158', body);
+        return this.http.put('https://vibe2.herokuapp.com/api/vibes/update/5d2add3684899d2b0c10f158', body);
     }
 };
 RoomService.ctorParameters = () => [
