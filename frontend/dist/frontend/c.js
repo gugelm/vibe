@@ -1,3 +1,3 @@
 function clickBody(){
-    event.preventDefault();
+    window.location.href = '/';
 }
