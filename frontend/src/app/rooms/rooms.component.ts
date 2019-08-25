@@ -110,7 +110,7 @@ export class RoomsComponent implements OnInit {
         }
       });
 
-    // this.roomService.enterRoom('5d2add3684899d2b0c10f158')
+    // this.roomService.enterRoom('5d62b41a143a5e00171bdf06')
     //   .subscribe((success) => {
     //     // console.log(success);
 
@@ -119,7 +119,7 @@ export class RoomsComponent implements OnInit {
     //     console.log(error);
     //   });
 
-    this.roomService.getRoom('5d2add3684899d2b0c10f158')
+    this.roomService.getRoom('5d62b41a143a5e00171bdf06')
       .subscribe((success) => {
         // console.log(success);
         

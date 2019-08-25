@@ -285,14 +285,14 @@ let RoomsComponent = class RoomsComponent {
                 }, 1000);
             }
         });
-        // this.roomService.enterRoom('5d2add3684899d2b0c10f158')
+        // this.roomService.enterRoom('5d62b41a143a5e00171bdf06')
         //   .subscribe((success) => {
         //     // console.log(success);
         //     this.room = success;
         //   }, (error) => {
         //     console.log(error);
         //   });
-        this.roomService.getRoom('5d2add3684899d2b0c10f158')
+        this.roomService.getRoom('5d62b41a143a5e00171bdf06')
             .subscribe((success) => {
             // console.log(success);
             this.room = success;
@@ -385,7 +385,7 @@ let RoomService = class RoomService {
         var body = {
             "vibe": vibe
         };
-        return this.http.put('https://vibe-demo.herokuapp.com/api/vibes/update/5d2add3684899d2b0c10f158', body);
+        return this.http.put('https://vibe-demo.herokuapp.com/api/vibes/update/5d62b41a143a5e00171bdf06', body);
     }
 };
 RoomService.ctorParameters = () => [
@@ -462,7 +462,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! F:\Latest_project 2019\voter\vibe_frontend\frontend\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\HP\vote-demo\server\frontend\src\main.ts */"./src/main.ts");
 
 
 /***/ }),
